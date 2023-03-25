@@ -1,4 +1,6 @@
 import Header from "@/components/header/Header";
+import Navbar from "@/components/navbar/Navbar";
+import SearchBox from "@/components/search/SearchBox";
 import "./globals.css";
 import Providers from "./Providers";
 
@@ -13,7 +15,8 @@ export default function RootLayout({ children }) {
       <body>
         <Providers>
           <Header />
-
+          <Navbar />
+          <SearchBox />
           {children}
         </Providers>
       </body>
