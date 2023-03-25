@@ -19,7 +19,7 @@ export default function SearchBox() {
         value={search}
         onChange={(e) => setSearch(e.target.value)}
         type="text"
-        placeholder="Search keywords..."
+        placeholder="Enter keywords..."
         className="w-[50%] border border-r-0 py-2 px-4 my-4 rounded-l-lg placeholder-gary-500 outline-none bg-transparent"
       />
       <button
